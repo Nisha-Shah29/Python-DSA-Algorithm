@@ -3,10 +3,10 @@ class Pattern:
         for i in range(n):
             for j in range(i+1):
                 print(j+1, end=" ")
-            for j in range((2*n)-(2*(i+1))):
-                print(" ",end="")
-            for j in range(i+1):
-                print(i+1-j, end=" ")
+            for k in range((2*n)-(2*(i+1))):
+                print("  ",end="")
+            for l in range(i+1):
+                print(i+1-l, end=" ")
             print()
 
 if __name__=="__main__":

@@ -1,6 +1,6 @@
 class Dictionary:
-    def displayKeys(self, key):
-        for key in data:
+    def displayKeys(self, num):
+        for key in num:
             print(key)
 
 if __name__=="__main__":
